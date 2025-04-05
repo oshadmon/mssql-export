@@ -1,7 +1,7 @@
 import json
 import requests
 
-from mssql_get_data import MSSQL
+from mssql_connector import MSSQL
 
 server = r'localhost\SQLEXPRESS01'  # Use raw string (r'') for backslashes
 database = 'LSPPDataLog'  # Database name
