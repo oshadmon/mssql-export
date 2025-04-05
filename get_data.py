@@ -3,7 +3,7 @@ import random
 import json
 import requests
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from mssql_get_data import MSSQL
+from mssql_connector import MSSQL
 
 # Load policies
 with open('blockchain.json', 'r') as f:
